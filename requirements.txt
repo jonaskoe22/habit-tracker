@@ -1,0 +1,10 @@
+# Core dependency for reminder scheduling
+schedule
+
+# Testing
+pytest
+
+# Code quality
+black
+isort
+flake8
