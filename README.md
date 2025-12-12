@@ -18,10 +18,8 @@ Features include:
 
 - Python 3.11+
 - (Windows) PowerShell or Command Prompt
-- (Recommended) Git and VS Code
+- Git and VS Code
 
-Tip (Windows): If PowerShell blocks venv activation, use the batch activator  
-`.venv\Scripts\activate.bat` instead of `Activate.ps1`.
 
 ---
 
@@ -49,4 +47,5 @@ pytest -q
 
 # Run the application
 python -m app.cli
+
 
