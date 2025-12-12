@@ -5,12 +5,12 @@ A command-line habit tracker designed for clean Python project structure.
 Features include:
 - Modular design (`app/models`, `app/db`, `app/analysis`)
 - Periodicity-aware streak logic (daily / weekly / monthly)
-- Analytics module implemented in functional style
+- Analytics module
 - 5 predefined demo habits (3 daily, 2 weekly)
 - Completion history with timestamps
 - SQLite persistence (`habits.sqlite3` file)
 - Unit tests for habit tracking and analytics
-- Easy setup with `.gitignore` and `requirements.txt`
+- Setup with `.gitignore` and `requirements.txt`
 
 ---
 
@@ -49,3 +49,4 @@ pytest -q
 
 # Run the application
 python -m app.cli
+
